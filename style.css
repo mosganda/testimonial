@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('images/bg-image.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container {
+   
+    width: 500px;
+    height: 400px;
+    padding: 10px 15px;
+    text-align: center;
+    color: white;
+}
+#client {
+    color: red;
+    font-weight: bold;
+}
+.star {
+    color: sandybrown;
+    font-size: 20px;
+}
+#fieldset {
+    position: relative;
+}
+.btn {
+    position: absolute;
+    top:50%;
+
+    color: sandybrown;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 5px;
+    border: none;
+    outline:none;
+    background-color: #454545;
+}
+.btn:hover {
+    background-color: sienna;
+    border: 1px solid red;
+    margin-left: 2px;
+    color: white;
+}
+#button1 {
+    position: absolute;
+    left: -50px;
+}
+#button2 {
+    position: absolute;
+    right: -50px;
+}
+
