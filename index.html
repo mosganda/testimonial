@@ -4,30 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimonial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class ="container">
-        <h3 id="client">CLIENT</h3>
-    <h1 id= "testimonial">TESTIMONIAL</h1>
-    <div id = "field">
-        <fieldset id="fieldset">
-            <legend id="legend"><img id ="image" src="images/emoji1.jpg" alt="emoji1"></legend>
-            <h3 id="name">CUSTOMER NAME</h3>
-            <p class = "star">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
+    
+<div class = "container-fluid">
+    <div class = "row max-height align-items-center">
+        <div class="col-sm-10 mx-auto">
+          
+            <div class="row justify-content-center">
+                <h4 class="title-heading text-uppercase">client</h4>
+                <h1 class="title-subheading text-uppercase">testimonial</h1>
+            </div>
+        </div>
+        <div class ="card my-3 text-center customer-card">
+            <img src ="images/emoji1.jpg" id="customer-img" class="img-card mx-auto" alt="">
+            <h4 id ="customer-name" class="text-uppercase">Customer Name</h4>
+            <div class ="review-icons my-2">
+                <span class ="star-icon">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class ="star-icon">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class ="star-icon">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class ="star-icon">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class ="star-icon">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+            </div>
+            <p id ="customer-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit voluptatum illo? Quae fugiat aspernatur harum aperiam, quis eos official.
             </p>
-            <p id ="quote" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit voluptatum illo? Quae fugiat aspernatur harum aperiam, quis eos officia.</p>
-            <p class = 'star'><i class="fa fa-quote-left" aria-hidden="true"></i></p>
-            <button id ="button1" class ="btn prev"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></button>
-            <button id ="button2" class ="btn next"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
-        </fieldset>
+            <span class="quote-icon">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+            </span>
+            <a href="#" class="btn btnPrev"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></a>
+            <a href="#" class="btn btnNext"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+        </div>
     </div>
-    </div>
+</div>
     <script src ="app.js"></script>
 </body>
 </html>
